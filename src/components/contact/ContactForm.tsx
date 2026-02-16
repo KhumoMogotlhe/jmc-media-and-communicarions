@@ -17,7 +17,7 @@ const ContactForm = () => {
         "YOUR_PUBLIC_KEY"
       )
       .then(
-        (result) => {
+        () => {
           alert("Message sent successfully!");
           formRef.current?.reset();
         },
